@@ -87,7 +87,6 @@
     &:hover {
       background-color: #0056b3;
     }
-
   }
 }
 
@@ -113,5 +112,14 @@
 @media (max-width: 576px) {
   .user {
     width: calc(100% - 20px);
+  }
+
+  .createUserForm {
+    flex-direction: column; 
+    margin-left: 0; 
+
+    input, button {
+      width: 90%; 
+    }
   }
 }
